@@ -1,0 +1,22 @@
+:root
+{
+  background-color: gray;
+}
+
+
+header{
+    width: 1600px;
+    height: 760px;
+    position: relative;
+    overflow: hidden;
+    
+
+    nav{
+        align-items: center;     
+        display: flex;
+        gap: 230px;
+        padding: 40px 80px 0;
+        position: relative;
+        z-index: 2;
+    }
+}
