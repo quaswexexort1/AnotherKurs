@@ -2,7 +2,12 @@
 {
   background-color: gray;
 }
-header{
+
+
+.mainpage{
+
+
+  .header{
     background-color: #1c1e53;
     width: 1600px;
     height: 760px;
@@ -34,7 +39,7 @@ header{
             cursor: pointer;
             transition: 0.3s;
         }
-    }
+      }
 
     a{
         text-decoration: none !important;
@@ -166,7 +171,7 @@ header{
   display: flex;
   flex-direction: column;
 
-    .step-number {
+    .stepnumber {
     div {
       width: 48px;  
       height: 48px;
@@ -231,7 +236,7 @@ header{
   margin: 0 auto;
   background: #ffffff;
 
-  .projects-header {
+  .projectsheader {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -253,7 +258,7 @@ header{
     }
   }
 
-  .projects-content {
+  .projectscontent {
     display: grid;
     grid-template-columns: 864px 416px; 
     gap: 32px;
@@ -262,9 +267,9 @@ header{
 
 
 
-  .project-main,
-  .side-top,
-  .side-bottom {
+  .projectmain,
+  .sidetop,
+  .sidebottom {
     position: relative;
     overflow: hidden;
 
@@ -278,7 +283,7 @@ header{
 
 
 
-  .project-main {
+  .projectmain {
     height: 600px;
 
     .overlay {
@@ -319,16 +324,16 @@ header{
 
 
 
-  .project-side {
+  .projectside {
     display: flex;
     flex-direction: column;
     gap: 32px;
   }
 
-  .side-top {
+  .sidetop {
     height: 284px;
 
-    .overlay-small {
+    .overlaysmall {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -356,7 +361,7 @@ header{
     }
   }
 
-  .side-bottom {
+  .sidebottom {
     height: 284px;
   }
 }
@@ -368,7 +373,7 @@ header{
   margin: 0 auto;
   background: #f4f6fc;
 
-  .features-header {
+  .featuresheader {
     text-align: center;
     margin-bottom: 64px;
 
@@ -387,13 +392,13 @@ header{
     }
   }
 
-  .features-grid {
+  .featuresgrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
   }
 
-  .feature-card {
+  .featurecard {
     background: #ffffff;
     padding: 48px;
     border-radius: 12px;
@@ -515,7 +520,7 @@ header{
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 80px;
-    .bottom-row {
+    .bottomrow {
       margin-top: 40px;
       display: flex;
       justify-content: space-between;
@@ -614,7 +619,7 @@ header{
   gap: 100px;
   background: #ffffff;
 
-  .faq-left {
+  .faqleft {
     h2 {
       font-size: 38px;
       font-weight: 600;
@@ -630,11 +635,11 @@ header{
     }
   }
 
-  .faq-item {
+  .faqitem {
     padding: 32px 0;
     border-bottom: 1px solid #ddd;
 
-    .faq-question {
+    .faqquestion {
       display: flex;
       align-items: center;
       gap: 20px;
@@ -690,12 +695,12 @@ header{
 }
 
 
-.contact-left {
+.contactleft {
   position: relative;
   background: url('../assets/woman-writing-on-paper-3228878.png') center/cover no-repeat;
   height: 691px;
 
-  .contact-overlay {
+  .contactoverlay {
     position: absolute;
     inset: 0;
     background: #1c1e53;
@@ -722,7 +727,7 @@ header{
 }
 
 
-.contact-right {
+.contactright {
   background: #1c1e53;
   padding: 71px;
   display: flex;
@@ -734,7 +739,7 @@ header{
     margin-bottom: 16px;
   }
 
-  .contact-desc {
+  .contactdesc {
     font-size: 16px;
     margin-bottom: 32px;
     opacity: 0.8;
@@ -754,7 +759,7 @@ header{
     color: rgba(255,255,255,0.6);
   }
 
-  .send-btn {
+  .sendbtn {
     height: 56px;
     border-radius: 40px;
     border: none;
@@ -764,7 +769,7 @@ header{
     cursor: pointer;
   }
 
-  .contact-link {
+  .contactlink {
     margin-top: 28px;
     color: white;
     text-decoration: none;
@@ -785,13 +790,13 @@ header{
   }
 }
 
-.blog-cards {
+.blogcards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
 
-.blog-card {
+.blogcard {
 
   img {
     width: 100%;
@@ -840,14 +845,14 @@ footer {
   width: 1600px;
 }
 
-.footer-top {
+.footertop {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 397px;
 }
 
-.footer-left {
+.footerleft {
 
   h3{
     font-size:32px;
@@ -861,7 +866,7 @@ footer {
 
 }
 
-.footer-contact{
+.footercontact{
   background:#fcd980;
   color:black;
   padding:20px 40px;
@@ -880,7 +885,7 @@ footer {
   }
 }
 
-.footer-right {
+.footerright {
 
   h2 {
     font-size: 48px;
@@ -895,12 +900,12 @@ footer {
   }
 }
 
-.footer-social {
+.footersocial {
   display: flex;
   gap: 16px;
 }
 
-.footer-bottom {
+.footerbottom {
   width: 1440px;
   padding: 32px 80px;
   display: flex;
@@ -909,7 +914,7 @@ footer {
   color: black;
 }
 
-.footer-links {
+.footerlinks {
   display: flex;
   gap: 32px;
 
@@ -917,4 +922,5 @@ footer {
     text-decoration: none;
     color: black;
   }
+}
 }
