@@ -17,6 +17,11 @@ import seriousman from '../../assets/serious-man.png'
 import people from '../../assets/people.png'
 import pencil from '../../assets/pencil.png'
 import writing from '../../assets/writing.png'
+import insta from '../../assets/insta.png'
+import facebook from '../../assets/facebook.png'
+import linkedin from '../../assets/Negative.png'
+import twitter from '../../assets/twitter.png'
+
 
 
 
@@ -175,101 +180,168 @@ const AboutPage = () =>
 
 
 
-<div className={styles.benefits}>
+    <div className={styles.benefits}>
 
-  <h2>The benefits of working with us</h2>
+      <h2>The benefits of working with us</h2>
 
-  <div className={styles.cards}>
+      <div className={styles.cards}>
 
-    <div className={styles.card}>
-      <img src={writing} alt="" />
-      <h3>Customize with ease</h3>
+        <div className={styles.card}>
+          <img src={writing} alt="" />
+          <h3>Customize with ease</h3>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua ut enim.
-      </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua ut enim.
+          </p>
+        </div>
+
+        <div className={styles.card}>
+          <img src={pencil} alt="" />
+          <h3>Perfectly Responsive</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua ut enim.
+          </p>
+        </div>
+
+        <div className={styles.card}>
+          <img src={people} alt="" />
+          <h3>Friendly Support</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua ut enim.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div className={styles.logos}>
+
+        <div className={styles.users}>
+          <h3>100.000+</h3>
+          <p>Finsweet Users</p>
+        </div>
+
+          <img src={logo1} alt="" />
+          <img src={logo2} alt="" />
+          <img src={logo3} alt="" />
+          <img src={logo4} alt="" />
+          <img src={logo5} alt="" />
+      </div>
+
     </div>
 
-    <div className={styles.card}>
-      <img src={pencil} alt="" />
-      <h3>Perfectly Responsive</h3>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua ut enim.
-      </p>
+
+    <div className={styles.team}>
+
+      <h2>Meet our team</h2>
+
+      <div className={styles.teamGrid}>
+
+        <div className={styles.member}>
+          <img src={maninblack} alt="" />
+          <h3>John Smith</h3>
+          <p>CEO</p>
+        </div>
+
+        <div className={styles.member}>
+          <img src={seriousman} alt="" />
+          <h3>Simon Adams</h3>
+          <p>CTO</p>
+        </div>
+
+        <div className={styles.member}>
+          <img src={maninwhite} alt="" />
+          <h3>Paul Jones</h3>
+          <p>Design Lead</p>
+        </div>
+
+        <div className={styles.member}>
+          <img src={trans} alt="" />
+          <h3>Sara Hardin</h3>
+          <p>Project Manager</p>
+        </div>
+
+      </div>
+
     </div>
 
-    <div className={styles.card}>
-      <img src={people} alt="" />
-      <h3>Friendly Support</h3>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua ut enim.
-      </p>
-    </div>
+        <footer>
+    
+                <div className={styles.footertop}>
+    
+              <div className={styles.footerleft}>
+                <h3>{`{Finsweet`}</h3>
+    
+                <p>
+                  We are always open to discuss your project and<br /> improve your online presence.
+                </p>
+    
+                <div className={styles.footercontact}>
+    
+                  <div>
+                    <span>Email me at</span>
+                    <p>contact@website.com</p>
+                  </div>
+    
+                  <div>
+                    <span>Call us</span>
+                    <p>0927 6277 28525</p>
+                  </div>
+    
+                </div>
+              </div>
+    
+              <div className={styles.footerright}>
+    
+                <h2>Lets Talk!</h2>
+    
+                <p>
+                  We are always open to discuss your project,
+                  improve your online presence and help with
+                  your UX/UI design challenges.
+                </p>
+    
+                <div className={styles.footersocial}>
+                  <span><img src={facebook} alt="" /></span>
+                  <span><img src={twitter} alt="" /></span>
+                  <span><img src={insta} alt="" /></span>
+                  <span><img src={linkedin} alt="" /></span>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+            <div className={styles.footerbottom}>
+    
+              <p>Copyright 2022, Finsweet.com</p>
+    
+              <div className={styles.footerlinks}>
+               <Link to="/">Home</Link>
+               <Link to="/about">About us</Link>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">FAQ</a>
+                <a href="#">Blog</a>
+              </div>
+    
+            </div>
+    
+          
+        </footer>
+    
 
   </div>
-
-
-  <div className={styles.logos}>
-
-    <div className={styles.users}>
-      <h3>100.000+</h3>
-      <p>Finsweet Users</p>
-    </div>
-
-      <img src={logo1} alt="" />
-      <img src={logo2} alt="" />
-      <img src={logo3} alt="" />
-      <img src={logo4} alt="" />
-      <img src={logo5} alt="" />
-  </div>
-
-</div>
-
-
-
-<div className={styles.team}>
-
-  <h2>Meet our team</h2>
-
-  <div className={styles.teamGrid}>
-
-    <div className={styles.member}>
-      <img src={maninblack} alt="" />
-      <h3>John Smith</h3>
-      <p>CEO</p>
-    </div>
-
-    <div className={styles.member}>
-      <img src={seriousman} alt="" />
-      <h3>Simon Adams</h3>
-      <p>CTO</p>
-    </div>
-
-    <div className={styles.member}>
-      <img src={maninwhite} alt="" />
-      <h3>Paul Jones</h3>
-      <p>Design Lead</p>
-    </div>
-
-    <div className={styles.member}>
-      <img src={trans} alt="" />
-      <h3>Sara Hardin</h3>
-      <p>Project Manager</p>
-    </div>
-
-  </div>
-
-</div>
-
-    </div>
   )
 }
 

@@ -477,8 +477,8 @@ const MainPage = () =>
           <p>Copyright 2022, Finsweet.com</p>
 
           <div className={styles.footerlinks}>
-            <a href="#">Home</a>
-            <a href="#">About us</a>
+            <Link to="/">Home</Link>
+            <Link to="/about">About us</Link>
             <a href="#">Features</a>
             <a href="#">Pricing</a>
             <a href="#">FAQ</a>
