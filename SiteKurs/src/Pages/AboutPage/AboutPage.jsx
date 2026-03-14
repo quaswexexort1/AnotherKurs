@@ -40,7 +40,7 @@ const AboutPage = () =>
           <ul className={styles.menu}>
             <Link to="/">Home</Link>
             <Link to="/about">About us</Link>
-            <a>Features</a>
+            <Link to="/features">Features</Link>
             <a>Pricing</a>
             <a>FAQ</a>
             <a>Blog</a>
